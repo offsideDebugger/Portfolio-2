@@ -257,7 +257,7 @@ export const Desc = () => {
            </div>
         </div> 
         <div>
-            <span className='w-full border border-neutral-400 bg-neutral-700 mt-8 block'>
+            <span className='w-full border border-neutral-400 bg-neutral-900 mt-8 block'>
             </span>
         </div>
         <div className='mt-8 flex justify-center items-center'>
