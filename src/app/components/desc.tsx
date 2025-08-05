@@ -26,6 +26,11 @@ import { LinkIcon } from './svgs/link'
 import { NotegenixGithub } from './svgs/NotegenixGithub'
 import { BucksBunnyGithub } from './svgs/bucksBunnyGithub'
 import { BucksBunny } from './svgs/bucksbunny'
+import { Xcom } from './svgs/X'
+import { Mail } from './svgs/mail'
+import { MyGithub } from './svgs/githubIcon'
+import { LinkedIn } from './svgs/linked'
+
 
 
 
@@ -228,6 +233,51 @@ export const Desc = () => {
                     </p>
                 </div>
             </div>
+        </div>
+        <div>
+            <h3 className="font-bold text-[18px] text-neutral-200 mb-1 mt-8">
+                Ping me anytime.
+            </h3>
+            <h4 className="text-neutral-300 text-[16px] mt-2 leading-6 tracking-tight ">
+                Feel free to reach out to me on any of the platforms below. I’m always open to discussing new projects, ideas, or just having a chat about tech. I am super active on X (formerly Twitter), so don’t hesitate to drop me a message there!
+            </h4>
+           <div className='flex gap-3 mt-2'>
+                <button className="mt-2 px-3 py-2 flex justify-center items-center backdrop-blur-xl border border-white bg-neutral-900 hover:bg-neutral-800 text-[12px] gap-2  cursor-pointer transition duration-200 text-white rounded-md" onClick={() => window.open("https://x.com/offsidedebugger", "_blank")} >
+                <span className='h-5 w-5 flex justify-center items-center'>
+                    <Xcom/>
+                </span>
+                Twitter
+                </button>
+                 <button className="mt-2 px-3 py-2 flex justify-center items-center backdrop-blur-xl border border-white bg-neutral-900 hover:bg-neutral-800 text-[12px] gap-2 transition cursor-pointer duration-200 text-white rounded-md" onClick={() => window.open("mailto:thakurwanidakshh@gmail.com", "_blank")} >
+                <span className='h-5 w-5 flex justify-center items-center'>
+                    <Mail/>
+                </span>
+                Mail
+                </button>
+           </div>
+        </div> 
+        <div>
+            <span className='w-full border border-neutral-400 bg-neutral-700 mt-8 block'>
+            </span>
+        </div>
+        <div className='mt-8 flex justify-center items-center'>
+            <div className='flex items-center justify-center gap-8'> 
+                <span className='h-10 w-10 rounded-full flex justify-center items-center cursor-pointer hover:bg-neutral-800'>
+                    <Mail/>
+                </span>
+                <span className='h-10 w-10 rounded-full flex justify-center items-center cursor-pointer hover:bg-neutral-800'>
+                    <MyGithub/>
+                </span>
+                <span className='h-10 w-10 rounded-full  flex justify-center items-center cursor-pointer hover:bg-neutral-800'>
+                    <Xcom/>
+                </span>
+                  <span className=' h-10 w-10 rounded-full flex justify-center items-center cursor-pointer hover:bg-neutral-800' onClick={() => window.open("https://www.linkedin.com/in/dakshh-thakurwani-59673a347/", "_blank")}>
+                    <LinkedIn/>
+                </span>
+            </div>
+        </div>
+        <div className='flex items-center justify-center'>
+                <p className="text-sm mt-2 text-neutral-400 ">© 2025 Dakshh. All rights reserved.</p>
         </div>
     </div>
   )
