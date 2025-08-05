@@ -22,6 +22,11 @@ import { VercelLogo } from './svgs/vercel'
 import notegenix from '../../../realNotegenix.png'
 import Image from 'next/image'
 import bucks from '../../../bucksbunny.png'
+import { LinkIcon } from './svgs/link'
+import { NotegenixGithub } from './svgs/NotegenixGithub'
+import { BucksBunnyGithub } from './svgs/bucksBunnyGithub'
+import { BucksBunny } from './svgs/bucksbunny'
+
 
 
 export const Desc = () => {
@@ -162,9 +167,9 @@ export const Desc = () => {
                 Projects.
             </h3>
         </div>
-        <div className='mt-4 flex p-2 border border-neutral-700 rounded-lg bg-neutral-900'>
-            <span>
-                <Image src={notegenix} alt="NoteGenix" width={0} height={0} className='rounded-lg h-[100px] w-[150px]' />
+        <div className='mt-4 flex p-2 border border-neutral-700 rounded-lg bg-neutral-900 h-[150px] w-full hover:bg-neutral-800'>
+            <span className='flex justify-center items-center'>
+                <Image src={notegenix} alt="NoteGenix" width={150} height={100} className='rounded-lg h-[125px] w-[560px]' />
             </span>
             <div className='ml-4  mt-2 flex flex-col'>
                 <div className='flex items-center gap-2'>
@@ -175,12 +180,27 @@ export const Desc = () => {
                             Live
                         </span>
                     </div>
+                    <div className='flex items-center gap-2 ml-55'>
+                        <span className=''>
+                            <LinkIcon/>
+                        </span>
+                        <span className=''>
+                            <NotegenixGithub/>
+                        </span>
+                    </div>
+                </div>
+                <div className='text-neutral-300 text-[12px] mt-2'>
+                    <p>
+                        NoteGenix is a smart note-sharing and management platform for students and educators.
+                        Easily upload, organize, and access study materials like PDFs, slides, and handwritten notes.
+                        It’s designed to simplify academic collaboration and make learning resources instantly accessible.
+                    </p>
                 </div>
             </div>
         </div>
-         <div className='mt-2 flex p-2 border border-neutral-700 rounded-lg bg-neutral-900'>
-            <span>
-                <Image src={bucks} alt="BucksBunny" width={0} height={0} className='rounded-lg h-[100px] w-[150px]' />
+         <div className='mt-2 flex p-2 border border-neutral-700 rounded-lg bg-neutral-900 hover:bg-neutral-800'>
+            <span className='flex items-center justify-center'>
+                <Image src={bucks} alt="BucksBunny" width={150} height={100} className='rounded-lg h-[110px] w-[550px]' />
             </span>
             <div className='ml-4  mt-2 flex flex-col'>
                 <div className='flex items-center gap-2'>
@@ -191,6 +211,21 @@ export const Desc = () => {
                             Live
                         </span>
                     </div>
+                     <div className='flex items-center gap-2 ml-52'>
+                        <span className=''>
+                            <BucksBunny/>
+                        </span>
+                        <span className=''>
+                            <BucksBunnyGithub/>
+                        </span>
+                    </div>
+                </div>
+                <div>
+                    <p className='text-neutral-300 text-[12px] mt-2'>
+                        Bucks Bunny is a lightweight SaaS tool built for freelancers to manage their finances with ease.
+                            Track your income, generate invoices instantly, and view detailed monthly income summaries.
+                            It’s a simple yet powerful dashboard to help you stay financially organized and professional.
+                    </p>
                 </div>
             </div>
         </div>
