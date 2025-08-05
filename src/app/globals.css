@@ -4,4 +4,15 @@ body {
   font-family: 'Arial', sans-serif;
   background-color: black;
   color: #ededed;
+  overflow-x: hidden;
+}
+
+/* Ensure proper mobile scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Fix any potential horizontal scroll issues */
+* {
+  box-sizing: border-box;
 }
