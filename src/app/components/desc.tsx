@@ -42,7 +42,7 @@ export const Desc = () => {
                 About Me.
             </h3>
             <h4 className="text-neutral-300 text-[14px] sm:text-[16px] leading-6 tracking-tight ">
-                Yo !! I’m Daksh, a full-stack web developer in progress who enjoys building real, usable tools, not just todo apps. Learning to ship minimal and clean UIs with functional backends. Obsessed with fixing bugs I probably caused. Trying to build stuff that’s actually helpful, and maybe a little cool too. I can adapt to any tech-stack, but I’m currently into Next.js, React, Express.js, and TypeScript.
+                Yo !! I’m Dakshh, a full-stack web developer in progress who enjoys building real, usable tools, not just todo apps. Learning to ship minimal and clean UIs with functional backends. Obsessed with fixing bugs I probably caused. Trying to build stuff that’s actually helpful, and maybe a little cool too. I can adapt to any tech-stack, but I’m currently into Next.js, React, Express.js, and TypeScript.
             </h4>
         </div>
         <div>
